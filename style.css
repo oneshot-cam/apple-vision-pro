@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root{
+  --colorprimary: #73B698;
+  --colorsecondary: #A49BBF;
+  --coloraccent: #EEC194;
+  --colortext: #161725;
+  --colorbg: #FEFEFD;
+  --ff: "DM Sans", sans-serif;
+  --h1: bold 8.3vw var(--ff);
+  --h2: bold 3.3vw var(--ff);
+  --h3: normal 1.3vw var(--ff);
+}
+
+html, body {
+  margin: 0; height: 100%; overflow: hidden
+}
+
+body{
+  background-color: var(--colorbg);
+  display:flex;
+  align-items:center;
+  gap: 40px;
+}
+h1{
+  margin: 0px;
+  margin-bottom: -30px;
+  font: var(--h1);
+  color: var(--colortext);
+}
+h2{
+  margin: 0px;
+  margin-bottom: 40px;
+  font: var(--h2);
+  color: var(--colortext);
+}
+h3{
+  margin-top: 0px 10px;
+  font: var(--h3);
+  color: var(--colortext);
+}
+.secondary-text {
+  font-weight: bold;
+  color: var(--colorsecondary);
+}
+a{
+  margin-top: 20px;
+  display: inline-block;
+  font: var(--h3);
+  font-weight: bold;
+  color: var(--colortext);
+  background-color: var(--colorprimary);
+  padding: 15px 30px;
+  border: none;
+  text-decoration: none;
+  border-radius: 10px;
+}
+img{
+  width: 100%;
+  height: auto;
+  border-radius: 100px;
+  border: 10px solid var(--coloraccent);
+  filter: blur(1px);
+  scale: 50%;
+}
+.text {
+  margin-left: 100px;
+}
